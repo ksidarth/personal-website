@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-export default class Timeline extends Component {
-  render() {
+const Timeline = () => {
     return (
       <div>
         <section className="colorlib-experience" data-section="timeline" id = "timeline">
@@ -31,7 +30,7 @@ export default class Timeline extends Component {
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
+                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
                         <i className="icon-pen2" />
                       </div>
@@ -95,4 +94,5 @@ export default class Timeline extends Component {
       </div>
     )
   }
-}
+
+export default Timeline;

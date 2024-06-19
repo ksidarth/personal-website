@@ -10,7 +10,7 @@ import Projects from "../components/projects";
 import Sidebar from "../components/sidebar"
 // import Introduction from "./components/introduction"
 import Timeline from "../components/timeline"
-
+import '../App.css'
 
 const HomePage = () => {
   return (
