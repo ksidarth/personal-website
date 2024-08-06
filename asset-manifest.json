@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sidarthkulkarni/static/css/main.f855e6bc.css",
+    "main.js": "/sidarthkulkarni/static/js/main.51311076.js",
+    "static/js/787.0f15b36d.chunk.js": "/sidarthkulkarni/static/js/787.0f15b36d.chunk.js",
+    "index.html": "/sidarthkulkarni/index.html",
+    "main.f855e6bc.css.map": "/sidarthkulkarni/static/css/main.f855e6bc.css.map",
+    "main.51311076.js.map": "/sidarthkulkarni/static/js/main.51311076.js.map",
+    "787.0f15b36d.chunk.js.map": "/sidarthkulkarni/static/js/787.0f15b36d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.51311076.js"
+  ]
+}
