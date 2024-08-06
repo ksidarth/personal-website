@@ -7,13 +7,27 @@ const Timeline = () => {
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">highlights</span>
+                <span className="heading-meta">history</span>
                 <h2 className="colorlib-heading animate-box">Timeline</h2>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-0">
+                        <i className="icon-code" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Quantitative Analyst Intern at PNC Bank<span> May 2024-August 2024</span></h2>
+                        <p>
+                          At PNC I helped develop ML Algorithms to model delinquency and default trends in customers. I designed and developed programs 
+                          using Python and SQL to use techniques such as Gradient Boosting Classifiers to analyze and predict processed data. 
+                        </p>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
@@ -23,7 +37,7 @@ const Timeline = () => {
                         <h2>Technical Project Management Co-op at SiPhox Health <span>June 2023-May 2024</span></h2>
                         <p>
                           At SiPhox I was a part of a one year old team attempting to bring at-home blood testing to America and Canada.
-                          I completed a variety of projects, applying my skills in Fullstack Development, Data Analysis and Visualization, and Product Design to real products.
+                          I completed a variety of projects, applying my skills in Fullstack Development, Data Analysis, and Product Design to real products.
                           I would also work as a sales rep and account manager periodically. 
                         </p>
                       </div>
@@ -51,7 +65,7 @@ const Timeline = () => {
                       </div>
                       <div className="timeline-label">
                         <h2>Web Developer Intern at Innocuous AI <span>October 2022 - December 2022</span></h2>
-                        <p> My first experience developing anything technical was at the startup Innocuous AI, where I worked with low-code solutions
+                        <p> My first experience developing anything technical professionally was at the startup Innocuous AI, where I worked with low-code solutions
                           like Wix and Wordpress to increase user engagement in the website. I would also help manage ad campaigns within Meta and Twitter ads manager. 
                         </p>
                       </div>

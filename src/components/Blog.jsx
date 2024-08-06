@@ -1,13 +1,18 @@
 import React, { Component } from 'react'
+import Sidebar from "../components/sidebar"
+
 const Blog = () => {
     return (
-      <div>
+	<div id="colorlib-page">
+	<div id="container-wrap">
+	 <Sidebar></Sidebar>
+      <div id="colorlib-main">
         <section className="colorlib-blog" data-section="blog">
 			<div className="colorlib-narrow-content">
 				<div className="row">
 					<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-					<span className="heading-meta">Read</span>
-					<h2 className="colorlib-heading">Recent Blog</h2>
+					<span className="heading-meta"> </span>
+					<h2 className="colorlib-heading">Coming Soon!</h2>
 					</div>
 				</div>
 				<div className="row">
@@ -47,9 +52,11 @@ const Blog = () => {
 					<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
 					</div>
 				</div>
-			</div>
+			</div> 
 			</section>
       </div>
+	  </div>
+        </div>
     )
   }
 

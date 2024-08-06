@@ -1504,6 +1504,9 @@
 .icon-google-plus:before {
   content: "\eabb";
 }
+.icon-report:before {
+  content: "\ef84";
+}
 .icon-google-plus2:before {
   content: "\eabc";
 }

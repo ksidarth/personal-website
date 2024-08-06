@@ -1413,6 +1413,9 @@ body.offcanvas {
     .row-bottom-padded-lg {
       padding-bottom: 1em; } }
 
+.hidescrollbar {
+  overflow: hidden; /* Hide scrollbars */
+}
 .row-bottom-padded-md {
   padding-bottom: 3em; }
   @media screen and (max-width: 768px) {
@@ -1433,3 +1436,24 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 100; }
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.highlight-underline {
+  display: inline;
+  text-decoration: none; /* Remove default underline */
+  color: inherit; /* Ensure text color remains the same */
+  background-image: linear-gradient(to right, lightblue 0%, lightblue 100%);
+  background-position: 0 100%; /* Position the gradient at the bottom */
+  background-repeat: no-repeat; /* Do not repeat the gradient */
+  background-size: 0% 2px; /* Width 0%, Height 2px (adjust as needed) */
+  transition: background-size 0.3s; /* Smooth transition */
+  padding-bottom: 2px; /* Adjust padding to make space for the underline */
+}
+
+.highlight-underline:hover {
+  background-size: 100% 2px; /* Expand the underline on hover */
+}

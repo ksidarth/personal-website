@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 const About = () => {
     return (
-      <div>
+      <div id='about'>
         <section className="colorlib-about" data-section="about">
         <div className="colorlib-narrow-content">
             <div className="row">
@@ -10,18 +10,15 @@ const About = () => {
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">
                     <div className="about-desc">
-                    <span className="heading-meta">About Us</span>
-                    <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p> Hey, I am a third year Computer Science and Business Major at Northeastern University where I currently hold a TA position for 
-                        Khoury College of Computer Science, mentoring students in their career journey.  <br></br>
-                        I have worked as a line cook, delivery driver, waitstaff, web developer, and software engineer. 
-                        Currently, I am working part time as a Project Management Intern at SiPhox Health, a startup seeking to create at-home, lab quality blood tests. 
+                    <span className="heading-meta">Intro</span>
+                    <h2 className="colorlib-heading">About Me</h2>
+                    <p> Hey, I am current entering my Senior Year at Northeastern University, studying a CS and Business Administration with a concentration in FinTech.
+                        <br></br>
+                        Recently I worked at PNC Bank as a Quantitative Analyst Intern, helping to design and develop ML Algorithms.  
                         </p><p>
-                        I'm a big runner, basketball fan, and guitarist. I initally thought of this website to be a place for my friend and I to post writing samples, but ended 
-                        up turning it into a personal website as well. Feel free to check out the Blog section to see some great pieces of writing. 
+                        I'm a big runner, basketball fan, and guitarist. I also enjoy thinking about ways to beat sports odds set by Vegas. 
                         </p>
-                    <p>This summer, I am working at PNC Bank as a Quantitative Analyst in New York City. Interested in applying my linear algebra knowlege to real work problems 
-                        such as fraud detection and hedging.
+                    <p>Open to opportunities full-time for Spring and Summer 2025. 
                     </p>
                     </div>
                 </div>
@@ -30,23 +27,25 @@ const About = () => {
             </div>
         </div>
         </section>
-        <section className="colorlib-about hidden">
+        <section className="colorlib-about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">Work History</span>
-                <h2 className="colorlib-heading">Here is some of my expertise</h2>
+                <span className="heading-meta">highlights</span>
+                <h2 className="colorlib-heading">Skills</h2>
             </div>
             </div>
             <div className="row row-pt-md">
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                 <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                    <h3>Data Science</h3>
+                    <p>I have experience modeling and analyzing complex trends in real-world data. I have also build several pipelines in the professional setting to accurately pre-process data.
+                        Most importantly, I have an aptitude for condensing findings and presenting understandable results.
+                    </p>
                 </div>
                 </div>
             </div>
@@ -56,19 +55,23 @@ const About = () => {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <h3>Product-Minded Development
+                    </h3>
+                    <p>During my experience at SiPhox I accrued an understanding of how to develop with a customer focused mindset. This comes from a personal 
+                        interest in UX design and customer behavior trends.</p>
                 </div>
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-5">
                 <span className="icon">
-                    <i className="icon-data" />
+                    <i className="icon-group-outline" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <h3>Teamwork</h3>
+                    <p>I have worked with teams with a diverse set of backgrounds, such as Data Scientists, Software Developers, Marketing Consultants, Silicon Photonic Engineers, and Graphic Designers.
+                        I have learned how to adapt and mesh with a variety of different people, and am always looking to work in environments with that same variety. 
+                    </p>
                 </div>
                 </div>
             </div>
