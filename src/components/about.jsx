@@ -57,7 +57,7 @@ const About = () => {
                 <div className="desc">
                     <h3>Product-Minded Development
                     </h3>
-                    <p>During my experience at SiPhox I accrued an understanding of how to develop with a customer focused mindset. This comes from a personal 
+                    <p>During my experience at SiPhox, I accrued an understanding of how to develop with a customer focused mindset. This comes from a personal 
                         interest in UX design and customer behavior trends.</p>
                 </div>
                 </div>
