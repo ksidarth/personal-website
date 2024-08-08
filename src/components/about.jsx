@@ -12,11 +12,11 @@ const About = () => {
                     <div className="about-desc">
                     <span className="heading-meta">Intro</span>
                     <h2 className="colorlib-heading">About Me</h2>
-                    <p> Hey, I am current entering my Senior Year at Northeastern University, studying a CS and Business Administration with a concentration in FinTech.
+                    <p> Hey, I am currently entering my Senior Year at Northeastern University, studying CS and Business Administration with a concentration in FinTech.
                         <br></br>
-                        Recently I worked at PNC Bank as a Quantitative Analyst Intern, helping to design and develop ML Algorithms.  
+                        Recently, I worked at PNC Bank as a Quantitative Analyst Intern, helping to design and develop ML Algorithms.  
                         </p><p>
-                        I enjoy running, basketball, guitar, and sports betting.  
+                        I enjoy running, basketball, guitar, sports betting algorithms and robotics.  
                         </p>
                     <p>Open to opportunities full-time for Spring and Summer 2025. 
                     </p>

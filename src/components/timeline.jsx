@@ -22,7 +22,7 @@ const Timeline = () => {
                       <div className="timeline-label">
                         <h2>Quantitative Analyst Intern at <a href="https://www.pnc.com/" className="highlight-underline" style={{color:'#5892f2'}}>PNC Bank</a><span> May 2024-August 2024</span></h2>
                         <p>
-                          At PNC I helped develop ML Algorithms to model delinquency and default trends in customers. I designed and developed programs 
+                          At PNC, I helped develop ML Algorithms to model delinquency and default trends in customers. I designed and developed programs 
                           using Python and SQL to use techniques such as Gradient Boosting Classifiers to analyze and predict processed data. 
                         </p>
                       </div>
@@ -36,7 +36,7 @@ const Timeline = () => {
                       <div className="timeline-label">
                         <h2>Technical Project Management Co-op at <a href="https://siphoxhealth.com/" className="highlight-underline" style={{color:'#5892f2'}}>SiPhox Health</a> <span>June 2023-May 2024</span></h2>
                         <p>
-                          At SiPhox I was a part of a one year old team attempting to bring at-home blood testing to America and Canada.
+                          At SiPhox, I was a part of a one year old team attempting to bring at-home blood testing to America and Canada.
                           I completed a variety of projects, applying my skills in Fullstack Development, Data Analysis, and Product Design to real products.
                           I would also work as a sales rep and account manager periodically. 
                         </p>
