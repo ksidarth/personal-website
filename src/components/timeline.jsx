@@ -68,7 +68,7 @@ const Timeline = () => {
                       <div className="timeline-label">
                         <h2>Web Developer Intern at <a href="https://www.innocuous.ai/" className="highlight-underline" style={{color:'#5892f2'}}>Innocuous AI</a> <span>October 2022 - December 2022</span></h2>
                         <p> My first professional experience in technical development was at the startup Innocuous AI, where I worked with low-code solutions
-                          like Wix and Wordpress to increase user engagement in the website. I would also help manage ad campaigns within Meta and Twitter ads manager. 
+                          like Wix and Wordpress to increase user engagement in the website. I would also help manage ad campaigns within Meta and Twitter Ads Manager. 
                         </p>
                       </div>
                     </div>
