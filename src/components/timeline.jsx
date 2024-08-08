@@ -20,7 +20,7 @@ const Timeline = () => {
                         <i className="icon-code" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Quantitative Analyst Intern at PNC Bank<span> May 2024-August 2024</span></h2>
+                        <h2>Quantitative Analyst Intern at <a href="https://www.pnc.com/" className="highlight-underline" style={{color:'#5892f2'}}>PNC Bank</a><span> May 2024-August 2024</span></h2>
                         <p>
                           At PNC I helped develop ML Algorithms to model delinquency and default trends in customers. I designed and developed programs 
                           using Python and SQL to use techniques such as Gradient Boosting Classifiers to analyze and predict processed data. 
@@ -34,7 +34,7 @@ const Timeline = () => {
                         <i className="icon-device-laptop" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Technical Project Management Co-op at SiPhox Health <span>June 2023-May 2024</span></h2>
+                        <h2>Technical Project Management Co-op at <a href="https://siphoxhealth.com/" className="highlight-underline" style={{color:'#5892f2'}}>SiPhox Health</a> <span>June 2023-May 2024</span></h2>
                         <p>
                           At SiPhox I was a part of a one year old team attempting to bring at-home blood testing to America and Canada.
                           I completed a variety of projects, applying my skills in Fullstack Development, Data Analysis, and Product Design to real products.
@@ -49,7 +49,7 @@ const Timeline = () => {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>TA at Northeastern University <span>Jan. 2024- April 2024</span></h2>
+                        <h2>TA at <a href="https://www.northeastern.edu/" className="highlight-underline" style={{color:'#5892f2'}}>Northeastern University</a> <span>Jan. 2024- April 2024</span></h2>
                         <p> At Northeastern I guided students in their first internship search for CS1210. I held resume reviews and mock technical interviews.
                           I also set up and carried out a feedback system for students to gauge the realism of mock interviews. 
                              </p>  
@@ -64,7 +64,7 @@ const Timeline = () => {
                       <i className="icon-user" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Web Developer Intern at Innocuous AI <span>October 2022 - December 2022</span></h2>
+                        <h2>Web Developer Intern at <a href="https://www.innocuous.ai/" className="highlight-underline" style={{color:'#5892f2'}}>Innocuous AI</a> <span>October 2022 - December 2022</span></h2>
                         <p> My first experience developing anything technical professionally was at the startup Innocuous AI, where I worked with low-code solutions
                           like Wix and Wordpress to increase user engagement in the website. I would also help manage ad campaigns within Meta and Twitter ads manager. 
                         </p>
@@ -78,7 +78,7 @@ const Timeline = () => {
                       <i className="icon-book" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Tutor at Juni Learning <span> Jan 2022 - Aug 2022</span></h2>
+                        <h2>Tutor at <a href="https://junilearning.com/" className="highlight-underline" style={{color:'#5892f2'}}>Juni Learning</a> <span> Jan 2022 - Aug 2022</span></h2>
                         <p> I was a private tutor at Juni Learning, specializing in teaching the fundamentals of 
                           Algorithms and Data Structures to high school students. 
                         </p>
@@ -92,9 +92,9 @@ const Timeline = () => {
                       <i className="icon-food" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Waitstaff at Event Temps<span> 2021-2023</span></h2>
-                        <p>During my first year of college, I regularly worked as a waitstaff at events for Harvard Medical School, 
-                          Northeastern, and other nearby Boston colleges. 
+                        <h2>Waitstaff at <a href="https://eventtemps.net/" className="highlight-underline" style={{color:'#5892f2'}}>Event Temps</a> <span> 2021-2023</span></h2>
+                        <p>During my first few years of college, I regularly worked as a waitstaff at events for Harvard Medical School, 
+                          Northeastern, and other nearby Universities. 
                         </p>
                       </div>
                     </div>

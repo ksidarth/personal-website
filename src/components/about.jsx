@@ -16,7 +16,7 @@ const About = () => {
                         <br></br>
                         Recently I worked at PNC Bank as a Quantitative Analyst Intern, helping to design and develop ML Algorithms.  
                         </p><p>
-                        I'm a big runner, basketball fan, and guitarist. I also enjoy thinking about ways to beat sports odds set by Vegas. 
+                        I enjoy running, basketball, guitar, and sports betting.  
                         </p>
                     <p>Open to opportunities full-time for Spring and Summer 2025. 
                     </p>

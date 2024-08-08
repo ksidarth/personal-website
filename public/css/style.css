@@ -78,13 +78,27 @@ figure {
   padding-bottom: 40px;
   float: left;
   width: 300px;
+  height: 100vh;
   position: fixed;
   overflow: scroll;
-  z-index: 1001;
+  z-index: 999;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
+
+.hamburger-menu {
+    font-size: 30px;
+    font-weight: 50;
+    line-height:0.6px;
+    color:black;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    z-index: 1000;
+    display: none;
+}
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
@@ -93,7 +107,15 @@ figure {
       -ms-transform: translateX(-300px);
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
-      padding-top: 4em; } }
+      padding-top: 4em; } 
+      .hamburger-menu {
+        display: block; 
+    }
+    }
+  #colorlib-aside.show {
+      transform: translateX(0%);
+  }
+
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
@@ -1444,14 +1466,14 @@ a.disabled {
 
 .highlight-underline {
   display: inline;
-  text-decoration: none; /* Remove default underline */
-  color: inherit; /* Ensure text color remains the same */
+  text-decoration: none; 
+  color: inherit; 
   background-image: linear-gradient(to right, lightblue 0%, lightblue 100%);
-  background-position: 0 100%; /* Position the gradient at the bottom */
-  background-repeat: no-repeat; /* Do not repeat the gradient */
-  background-size: 0% 2px; /* Width 0%, Height 2px (adjust as needed) */
-  transition: background-size 0.3s; /* Smooth transition */
-  padding-bottom: 2px; /* Adjust padding to make space for the underline */
+  background-position: 0 100%; 
+  background-repeat: no-repeat; 
+  background-size: 0% 2px; 
+  transition: background-size 0.3s; 
+  padding-bottom: 2px; 
 }
 
 .highlight-underline:hover {
