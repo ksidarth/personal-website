@@ -1,18 +1,46 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 const Sidebar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const sidebarRef = useRef(null);
+  const hamburgerRef = useRef(null);
+
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
+  const handleClickOutside = (event) => {
+    if (
+      sidebarRef.current && 
+      !sidebarRef.current.contains(event.target) &&
+      !hamburgerRef.current.contains(event.target)
+    ) {
+      setIsSidebarOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isSidebarOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isSidebarOpen]);
+
   return (
     <div>
-      <div className="hamburger-menu" onClick={toggleSidebar}>
+      <div 
+        className="hamburger-menu" 
+        onClick={toggleSidebar} 
+        ref={hamburgerRef}>
         &#9776; 
       </div>
 
       <aside 
+        ref={sidebarRef}
         id="colorlib-aside" 
         className={`border js-fullheight sidebar ${isSidebarOpen ? 'show' : ''}`} 
         style={{ overflow: 'hidden' }}>
