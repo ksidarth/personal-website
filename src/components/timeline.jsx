@@ -22,9 +22,10 @@ const Timeline = () => {
                       <div className="timeline-label">
                         <h2>Quantitative Analyst Intern at <a href="https://www.pnc.com/" className="highlight-underline" style={{color:'#5892f2'}}>PNC Bank</a><span> May 2024 - August 2024</span></h2>
                         <p>
-                          At PNC, I helped develop ML Algorithms to model delinquency and default trends in customers. I designed and developed programs 
-                          using Python and SQL to use techniques such as Gradient Boosted Classifiers to analyze and predict processed data. I worked with libraries such as 
-                          PyCaret, PySpark, and XGBoost to tune and develop these models. 
+                        At PNC, I used machine learning techniques to analyze and predict outcomes from financial and consumer data. 
+                        I developed programs in Python and SQL, applying methods like Gradient Boosted Classifiers to make sense of the processed data.
+                        I worked with libraries such as PyCaret, PySpark, and XGBoost to fine-tune these models.
+                        Additionally, I supported the C&IB team by setting up an SQL database for modeling prepayment curves, which helped simplify trade decisions.
                         </p>
                       </div>
                     </div>
