@@ -20,6 +20,19 @@ const Timeline = () => {
                         <i className="icon-code" />
                       </div>
                       <div className="timeline-label">
+                        <h2>Software Engineering Co-Op at <a href="https://www.morsecorp.com/" className="highlight-underline" style={{color:'#5892f2'}}>MORSE Corp</a><span> January 2025 - Present</span></h2>
+                        <p>
+                          At MORSE, I am building software for a toolkit for data quality analysis within computer vision models.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-0">
+                        <i className="icon-code" />
+                      </div>
+                      <div className="timeline-label">
                         <h2>Quantitative Analyst Intern at <a href="https://www.pnc.com/" className="highlight-underline" style={{color:'#5892f2'}}>PNC Bank</a><span> May 2024 - August 2024</span></h2>
                         <p>
                         At PNC, I used machine learning techniques to analyze and predict outcomes from financial and consumer data. 
