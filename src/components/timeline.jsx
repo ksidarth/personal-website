@@ -20,9 +20,10 @@ const Timeline = () => {
                         <i className="icon-code" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Software Engineering Co-Op at <a href="https://www.morsecorp.com/" className="highlight-underline" style={{color:'#5892f2'}}>MORSE Corp</a><span> January 2025 - Present</span></h2>
+                        <h2>Software Engineering Co-Op at <a href="https://www.morsecorp.com/" className="highlight-underline" style={{color:'#5892f2'}}>MORSE Corp</a><span> January 2025 - June 2025</span></h2>
                         <p>
-                          At MORSE, I am building software for a toolkit for data quality analysis within computer vision models.
+                          At MORSE, I built data quality tools for the US Department of Defense.
+                          I worked with a team to develop a Python-based data validation framework, which included a model inference engine, label prioritization system, label deduplication tool, and more.
                         </p>
                       </div>
                     </div>
