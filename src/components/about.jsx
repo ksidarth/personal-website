@@ -45,7 +45,7 @@ const About = () => {
               </p>
               <div className="cta-section">
                 <a 
-                  href="/resume.pdf" 
+                  href="/Sidarth_Kulkarni_Resume.pdf" 
                   download="Sidarth_Kulkarni_Resume.pdf"
                   className="availability-badge resume-link"
                 >
